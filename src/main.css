@@ -1,0 +1,83 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: black;
+    font-size: 12px;
+}
+
+header, footer {
+    background-color: #29272d;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.logo {
+    font-size: 6rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.valikko {
+    border-bottom: solid;
+    min-height: 250px;
+}
+
+.ruoka {
+    font-size: 1.5rem;
+    padding: 0 0 40px;
+    flex: none;
+}
+
+.ravintola {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-bottom: dotted;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-8 { 
+    background-color: #34495e; 
+    color: white; 
+    line-height: 5em; 
+    border: 1px solid white; 
+    height: 5em; 
+} 
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: lightblue;
+  }
+
+.no-gutters.ruoka {
+    padding-right: 0;
+    padding-left: 0;  
+}  
+
+/* Tää laittaa keskelle */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lisuke {
+    font-size: 1rem;
+}
+
+.ravintosisalto {
+    font-size: 1rem;
+}
